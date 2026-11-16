@@ -1,6 +1,6 @@
-/* Finanças Victor e Letícia: funciona sem internet. Versão 13ba4d133004 */
-const CACHE = 'financas-13ba4d133004';
-const PRECACHE = ["./","./apple-touch-icon.png","./assets/bricolage-grotesque-latin-ext-opsz-normal-IcJDqblK.woff2","./assets/bricolage-grotesque-latin-opsz-normal-Cre6nC2_.woff2","./assets/index-B2u12TUo.js","./assets/index-DmI7zCcd.css","./assets/instrument-sans-latin-ext-wdth-normal-C5E2Gvlv.woff2","./assets/instrument-sans-latin-wdth-normal-BVScPF0l.woff2","./assets/xlsx-DYas4hFQ.js","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
+/* Finanças Victor e Letícia: funciona sem internet. Versão dcb89c7a80fe */
+const CACHE = 'financas-dcb89c7a80fe';
+const PRECACHE = ["./","./apple-touch-icon.png","./assets/bricolage-grotesque-latin-ext-opsz-normal-IcJDqblK.woff2","./assets/bricolage-grotesque-latin-opsz-normal-Cre6nC2_.woff2","./assets/index-D1Poy-Fr.js","./assets/index-IXEKDHpO.css","./assets/instrument-sans-latin-ext-wdth-normal-C5E2Gvlv.woff2","./assets/instrument-sans-latin-wdth-normal-BVScPF0l.woff2","./assets/xlsx-DYas4hFQ.js","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(PRECACHE)).then(() => self.skipWaiting()));

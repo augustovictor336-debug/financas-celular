@@ -3,6 +3,7 @@
 Esta é a versão para celular do programa de finanças da família, publicada pelo GitHub Pages.
 
 - Endereço: https://augustovictor336-debug.github.io/financas-celular/
+- Também dá para abrir no computador, pelo endereço mais curto https://augustovictor336-debug.github.io/financas/ (mesma versão, mesmos dados).
 - Funciona em Android e iPhone. Para instalar: no iPhone, abra no Safari → Compartilhar → "Adicionar à Tela de Início"; no Android, abra no Chrome → "Instalar app".
 - Os dados **não** ficam aqui: ficam na nuvem da família (Supabase), protegidos por login, e cada aparelho guarda uma cópia.
 - `nuvem.json` tem só o endereço do projeto e a chave pública (publishable), feita para ficar em apps; o acesso aos dados depende do login.
